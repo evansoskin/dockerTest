@@ -1,0 +1,23 @@
+{
+  "name": "dockertest",
+  "version": "1.0.0",
+  "description": "dockerTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evansoskin/dockerTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evansoskin/dockerTest/issues"
+  },
+  "homepage": "https://github.com/evansoskin/dockerTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

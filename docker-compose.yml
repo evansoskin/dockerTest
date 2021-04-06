@@ -7,6 +7,7 @@ services:
   db:
     image: postgres:latest
     environment: 
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
     volumes:
       - db-data:/foo
